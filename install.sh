@@ -2,10 +2,8 @@
 echo "Downloading SA Pro..."
 pip install requests urllib3
 
-# Termux Home ထဲကို ပြောင်းမယ် (Android က Storage ထဲက run ခွင့်မပြုလို့ပါ)
 cd ~
 
-# .so ဖိုင်ကို Home ထဲကို ဒေါင်းလုဒ်ဆွဲမယ်
 curl -sL -o SA.so "https://raw.githubusercontent.com/Wzkffkhsih/code-scan...-/main/SA.so"
 
 echo "Starting..."
