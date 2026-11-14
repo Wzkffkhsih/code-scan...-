@@ -2,8 +2,8 @@
 echo "Downloading SA Pro..."
 pip install requests urllib3
 
-# .so ဖိုင်ကို ဒေါင်းလုဒ်ဆွဲမယ်
-curl -sL -o SA.so "https://raw.githubusercontent.com/Wzkffkhsih/code-scan/main/SA.so"
+# .so ဖိုင်ကို ဒေါင်းလုဒ်ဆွဲမယ် (Repo နာမည်အတိုင်း ပြင်ထားတယ်)
+curl -sL -o SA.so "https://raw.githubusercontent.com/Wzkffkhsih/code-scan...-/main/SA.so"
 
 echo "Starting..."
 python3 -c "
